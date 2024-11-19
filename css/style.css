@@ -513,3 +513,19 @@ button, input, textarea {
   padding: 15px;
   font-size: 1rem;
 }
+.payment-icons img, .payment-methods .payment-item img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.payment-methods .payment-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.payment-methods span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
