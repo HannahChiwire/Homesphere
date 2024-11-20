@@ -503,3 +503,25 @@ body {
   line-height: 35px;
 }
 /*** Footer End ***/
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+button, input, textarea {
+  padding: 15px;
+  font-size: 1rem;
+}
+
+.payment-icons {
+  display: flex; /* To display icons horizontally */
+  gap: 15px; /* Space between each icon */
+  justify-content: center; /* Center align icons */
+  margin-top: 10px; /* Add space above the icons */
+}
+.payment-icon {
+  width: 50px; /* Set width of each icon */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; 
+}
